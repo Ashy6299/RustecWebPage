@@ -70,7 +70,7 @@ function ServicesSection() {
   const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   return (
-    <Box sx={{ py: 8, bgcolor: "grey.50" }}>
+    <Box sx={{ py: 8, bgcolor: "primary" }}>
       <Container maxWidth="lg">
         {/* Header */}
         <Typography
