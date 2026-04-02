@@ -13,7 +13,6 @@ import { motion } from "framer-motion";
 import Slider from "react-slick";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
-// Import your images
 import heroImage1 from "../assets/image1.jpg";
 import heroImage2 from "../assets/image2.jpg";
 import heroImage3 from "../assets/image3.jpg";
@@ -64,20 +63,34 @@ function HeroSection() {
   };
 
   return (
-    <Box sx={{ py: 8, backgroundColor: "grey.50" }}>
+    <Box
+      sx={{
+        py: 8,
+        background: "linear-gradient(180deg, #f8fbff 0%, #eef4fa 100%)",
+      }}
+    >
       <Container maxWidth="lg">
         <Typography
           variant="h3"
           align="center"
           gutterBottom
-          sx={{ fontWeight: 800, color: "primary.main" }}
+          sx={{
+            fontWeight: 800,
+            color: "#0a1929",
+          }}
         >
           Welcome to Rustec.Co
         </Typography>
+
         <Typography
           variant="h6"
           align="center"
-          sx={{ mb: 5, color: "text.secondary" }}
+          sx={{
+            mb: 5,
+            color: "#334155",
+            maxWidth: 750,
+            mx: "auto",
+          }}
         >
           Delivering Precision Welding & Fabrication Services in Abuja & Beyond
         </Typography>
@@ -96,8 +109,9 @@ function HeroSection() {
                   sx={{
                     height: "100%",
                     borderRadius: 3,
-                    boxShadow: 3,
+                    boxShadow: 4,
                     overflow: "hidden",
+                    backgroundColor: "#ffffff",
                   }}
                 >
                   <CardMedia
@@ -106,11 +120,25 @@ function HeroSection() {
                     image={item.img}
                     alt={item.title}
                   />
-                  <CardContent>
-                    <Typography variant="h6" gutterBottom fontWeight="bold">
+                  <CardContent sx={{ minHeight: 120 }}>
+                    <Typography
+                      variant="h6"
+                      gutterBottom
+                      sx={{
+                        fontWeight: "bold",
+                        color: "#0a1929",
+                      }}
+                    >
                       {item.title}
                     </Typography>
-                    <Typography variant="body2" color="text.secondary">
+
+                    <Typography
+                      variant="body2"
+                      sx={{
+                        color: "#475569",
+                        lineHeight: 1.7,
+                      }}
+                    >
                       {item.description}
                     </Typography>
                   </CardContent>
@@ -126,7 +154,16 @@ function HeroSection() {
               variant="contained"
               size="large"
               endIcon={<ArrowForwardIcon />}
-              sx={{ borderRadius: 3, px: 4, py: 1.5, fontWeight: 600 }}
+              sx={{
+                borderRadius: 3,
+                px: 4,
+                py: 1.5,
+                fontWeight: 600,
+                backgroundColor: "#f0f2f5",
+                "&:hover": {
+                  backgroundColor: "#102a43",
+                },
+              }}
             >
               Get a Quote
             </Button>
