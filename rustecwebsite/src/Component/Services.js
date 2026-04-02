@@ -31,19 +31,19 @@ const services = [
     title: "Structural Welding",
     description:
       "Stainless steel welding, galvanised steel welding, gates and doors fabrication, staircases, fence rails, black iron steel design, window grills, door grills, prototyping, and more.",
-    icon: <EngineeringIcon fontSize="large" />,
+    icon: <EngineeringIcon color="primary" fontSize="large" />,
   },
   {
     title: "Fabrication",
     description:
       "We offer skilled craftsmanship, competitive pricing, superior quality, timely service, innovative touches, and perfect finishing for all fabrication needs.",
-    icon: <BuildIcon fontSize="large" />,
+    icon: <BuildIcon color="primary" fontSize="large" />,
   },
   {
     title: "Repairs",
     description:
       "Expert repair services for structural and equipment issues, ensuring durability, safety, reliability, and excellent customer support after every project.",
-    icon: <HomeRepairServiceIcon fontSize="large" />,
+    icon: <HomeRepairServiceIcon color="primary" fontSize="large" />,
   },
 ];
 
