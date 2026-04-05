@@ -14,18 +14,18 @@ import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 
 const teamMembers = [
   {
-    name: "Engr. Ibrahim Rustam",
-    role: "Founder & Lead Fabricator",
+    name: "Engr. Abdulrafiu Yahaya A.",
+    role: " Founder & CEO",
     img: "https://via.placeholder.com/150",
   },
   {
-    name: "Fatima Bello",
+    name: "Engr. Saidu Abdulhamid",
     role: "Project Manager",
     img: "https://via.placeholder.com/150",
   },
   {
-    name: "Daniel Okoro",
-    role: "Creative Director",
+    name: "Yakubu Ibrahim",
+    role: "Project Supervisor & Team Lead",
     img: "https://via.placeholder.com/150",
   },
 ];
@@ -105,10 +105,10 @@ function ContactSection() {
         <Typography
           variant="body1"
           component="a"
-          href="tel:+2348123456789"
+          href="tel:+234 9122180403"
           sx={{ textDecoration: "none", color: "inherit", display: "block" }}
         >
-          📞 +234 812 345 6789
+          📞 +234 9122180403
         </Typography>
         <Typography
           variant="body1"
