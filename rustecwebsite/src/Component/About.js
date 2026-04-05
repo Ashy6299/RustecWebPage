@@ -50,7 +50,9 @@ function AboutSection() {
         color="text.secondary"
         sx={{ mb: 5 }}
       >
-        Delivering durable, aesthetic, and sustainable fabrication solutions.
+        Our services combine aesthetics, functionality, efficiency, and
+        sustainability. We are committed to delivering exceptional quality and
+        timely project.
       </Typography>
 
       {/* Main About Card */}
@@ -94,10 +96,8 @@ function AboutSection() {
                 }}
               >
                 Rustec Global Company Limited is a construction, welding, and
-                fabrication company committed to exceptional product quality and
-                timely project delivery. Our project offerings are distinct —
-                combining aesthetics, form, functionality, efficiency, and
-                sustainability.
+                fabrication company committed to delivering exceptional product
+                quality and timely project completion.
               </Typography>
 
               <Typography
@@ -109,10 +109,10 @@ function AboutSection() {
                   mb: 3,
                 }}
               >
-                Our projects reflect deep expertise, insight, and astute
-                attention to detail. We emphasize value creation through
-                exceptional welding and perfect finishing to improve quality of
-                life while optimizing operational performance.
+                Our projects reflect deep expertise, innovation, and attention
+                to detail. We focus on creating value through high-quality
+                welding and precision finishing to enhance both performance and
+                quality of life.
               </Typography>
 
               <Typography
@@ -123,9 +123,9 @@ function AboutSection() {
                   fontSize: isMobile ? "0.95rem" : "1.05rem",
                 }}
               >
-                Headquartered in Abuja, Nigeria, RUSTEC has become a key player
-                in the fabrication industry with a strong commitment to
-                innovation, quality, and sustainability.
+                Headquartered in Abuja, Nigeria, Rustec has grown into a trusted
+                name in the fabrication industry, known for quality, innovation,
+                and reliability.
               </Typography>
 
               <List sx={{ mt: 3 }}>
@@ -156,7 +156,7 @@ function AboutSection() {
                 <Typography color="text.secondary" sx={{ lineHeight: 1.8 }}>
                   To become one of the most recognized and trusted leaders in
                   welding, fabrication, and construction services through
-                  quality, innovation, and client satisfaction.
+                  quality, innovation, and customer satisfaction.
                 </Typography>
               </Stack>
             </CardContent>
@@ -190,9 +190,9 @@ function AboutSection() {
                   Our Strength
                 </Typography>
                 <Typography color="text.secondary" sx={{ lineHeight: 1.8 }}>
-                  We combine skilled craftsmanship, practical experience,
-                  durable materials, and attention to detail to create lasting
-                  solutions for every project.
+                  We combine skilled craftsmanship, hands-on experience, durable
+                  materials, and keen attention to detail to deliver
+                  long-lasting solutions for every project. project.
                 </Typography>
               </Stack>
             </CardContent>

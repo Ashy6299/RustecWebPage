@@ -11,22 +11,25 @@ import {
   Avatar,
 } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
+import Rafiu from "../assets/Rafiu.jpg";
+import Ibrahim from "../assets/ibrahimImage.jpg";
+import Hamid from "../assets/hamid.jpg";
 
 const teamMembers = [
   {
     name: "Engr. Abdulrafiu Yahaya A.",
     role: " Founder & CEO",
-    img: "https://via.placeholder.com/150",
+    img: Rafiu,
   },
   {
     name: "Engr. Saidu Abdulhamid",
     role: "Project Manager",
-    img: "https://via.placeholder.com/150",
+    img: Hamid,
   },
   {
     name: "Yakubu Ibrahim",
     role: "Project Supervisor & Team Lead",
-    img: "https://via.placeholder.com/150",
+    img: Ibrahim,
   },
 ];
 

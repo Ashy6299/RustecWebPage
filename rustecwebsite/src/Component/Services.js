@@ -36,13 +36,13 @@ const services = [
   {
     title: "Fabrication",
     description:
-      "We offer skilled craftsmanship, competitive pricing, superior quality, timely service, innovative touches, and perfect finishing for all fabrication needs.",
+      "We fabricate, sell, and supply smart doors, burglary-proof gates, railings, cabinets, and other custom metal works, delivering superior quality, modern designs, and perfect finishing for all projects.",
     icon: <BuildIcon color="primary" fontSize="large" />,
   },
   {
     title: "Repairs",
     description:
-      "Expert repair services for structural and equipment issues, ensuring durability, safety, reliability, and excellent customer support after every project.",
+      "We provide expert repair services for structural and equipment issues, ensuring durability, safety, reliability, and excellent customer support after every project.",
     icon: <HomeRepairServiceIcon color="primary" fontSize="large" />,
   },
 ];
@@ -136,6 +136,23 @@ function ServicesSection() {
                   fabrication, and repair services that meet the highest
                   standards. From custom metal works to structural repairs, our
                   team is committed to quality, safety, and client satisfaction.
+                </Typography>
+                <Typography variant="h5" fontWeight="bold" gutterBottom>
+                  Why Choose Us?
+                </Typography>
+                <Typography
+                  variant="body1"
+                  color="text.secondary"
+                  sx={{ lineHeight: 1.9, mb: 3 }}
+                >
+                  Skilled and experienced professionals High-quality materials
+                  and superior finishing Timely and efficient project delivery
+                  Competitive and transparent pricing Innovative and customized
+                  solutions Reliable after-service support Our Core Services
+                  Structural Welding We specialize in stainless steel and
+                  galvanized steel welding, including fabrication of gates,
+                  doors, staircases, fence railings, window grills, door grills,
+                  black iron designs, prototyping, and more.
                 </Typography>
 
                 <List dense>
