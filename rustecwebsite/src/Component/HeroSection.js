@@ -79,7 +79,7 @@ function HeroSection() {
             color: "#0a1929",
           }}
         >
-          Welcome to Rustec.Co
+          Welcome to Rustec Global Company Limited.
         </Typography>
 
         <Typography
@@ -159,9 +159,11 @@ function HeroSection() {
                 px: 4,
                 py: 1.5,
                 fontWeight: 600,
+                color: "#0a1929",
                 backgroundColor: "#f0f2f5",
                 "&:hover": {
-                  backgroundColor: "#102a43",
+                  backgroundColor: "#060229",
+                  color: "#f0f2f5",
                 },
               }}
             >

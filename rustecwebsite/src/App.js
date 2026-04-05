@@ -160,7 +160,7 @@ const LoadingScreen = ({ onFinish }) => {
           />
         </Box>
         <Typography variant="caption" color="text.secondary">
-          Loading experience...
+          Loading Rustec....
         </Typography>
       </Box>
     </Fade>

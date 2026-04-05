@@ -103,7 +103,7 @@ function Page() {
       {/* Footer */}
       <Box
         sx={{
-          backgroundColor: "#333",
+          backgroundColor: "#060229",
           color: "white",
           textAlign: "center",
           py: 2,
@@ -111,7 +111,8 @@ function Page() {
         }}
       >
         <Typography>
-          &copy; {currentYear} Rustec_Co. All rights reserved.
+          &copy; {currentYear} Rustec Global Company Limited. All Rights
+          Reserved.
         </Typography>
       </Box>
 

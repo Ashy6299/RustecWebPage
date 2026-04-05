@@ -57,7 +57,7 @@ function Navbar() {
     <AppBar
       position="sticky"
       sx={{
-        backgroundColor: "#112240", // use theme primary color
+        backgroundColor: "#060229", // use theme primary color
       }}
     >
       <Toolbar>
